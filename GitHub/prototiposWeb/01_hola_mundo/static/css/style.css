@@ -1,0 +1,35 @@
+/*Esto es un comentario*/
+header {
+    text-align: center; /*Centrar texto*/
+background-color: darkgrey;
+}/*Esto es un color de fondo*/
+header:hover {
+    background-color: silver;
+}
+h1 {
+    color:darkred;
+}
+main {
+    background-color:darkgrey;
+}
+main:hover {
+    background-color:silver;
+}
+h2 {
+    color:darkred;
+}
+footer {
+    background-color:darkgrey;
+}
+footer:hover {
+    background-color:silver;
+}
+p {
+    color:firebrick
+}
+button {
+    background-color: darkgrey;
+}
+button:hover {
+    background-color:lavenderblush;
+}
