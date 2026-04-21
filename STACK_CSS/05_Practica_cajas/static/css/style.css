@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+p.centrado{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 80px;
+}
+
+.caja{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 1px grey;
+    overflow: hidden;
+}
+
+.encabezado_caja{
+    color: white;
+    padding: 20px;
+}
+
+.cuerpo_caja{
+    padding: 20px;
+}
+.azul{
+    background-color: #4D9CE1;
+}
+.rojo{
+    background-color: #E95649;
+}
+.verde{
+    background-color: #4BB97A;
+}
+
+.caja2{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 10px;
+    border: solid 1px grey;
+    overflow: hidden;
+}
+.amarillo{
+    background-color: #F9CA4D;
+}
+.morado{
+    background-color: #9D69C1;
+}
+.turquesa{
+    background-color: #3999AB;
+}
