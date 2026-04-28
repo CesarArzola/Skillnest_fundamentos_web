@@ -12,7 +12,7 @@
     padding: 15px;
 }
 
-.titulo_header {
+.titulo {
     text-align: center;
     color: white;
 }
@@ -23,8 +23,9 @@
     width: 900px;
     padding: 20px;
 }
-.cursiva{
-    font-style: italic;
+
+.row {
+    padding: 30px;
 }
 
 /* Tamaños ejemplos CSS */
@@ -44,9 +45,146 @@
 }
 
 .parrafo1 {
-    font-size: 40px; /* Tamaño fijo */
+    font-size: 40%;
+    /* Tamaño fijo */
 }
 
 .link1 {
-    font-size: 250%; /* Tamaño proporcional */
+    font-size: 50px;
+    /* Tamaño proporcional */
+}
+
+.cursiva {
+    color: black;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/*
+📦 Manejo del contenido con overflow: hidden, scroll, auto
+*/
+.caja {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    /* elementos en bloque o columnas */
+}
+
+.example1 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(193, 41, 38);
+}
+
+.example2 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(193, 41, 38);
+}
+
+.example3 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(193, 41, 38);
+}
+
+.hidden {
+    /* Oculta los elementos que sobresalen del contenedor */
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.auto {
+    overflow: auto;
+}
+
+/* 🎨 Fondo y colores */
+.banner {
+    height: 330px;
+    width: 100%;
+    background: red url("/STACK_CSS/06_tamanos/static/images/Duki.xd.jpg") no-repeat center center;
+    background-size: 95%;
+    /* Aumenta el tamaño de la imágen dentro del contenedor */
+}
+
+/* 🟫 Bordes y estilos */
+.cancelar {
+    border: 2px dotted rgb(168, 7, 7);
+    /* dotted:línea segmentada ....... */
+    padding: 15px;
+    cursor: pointer;
+}
+
+.articulo {
+    border: 2px solid rgb(159, 158, 158);
+    /* solid: linea sólida */
+    height: 50px;
+    width: 100px;
+}
+
+/* 🟢 Bordes redondeados */
+.boton_redondeado {
+    padding: 10px 20px;
+    border-radius: 15px;
+    /* redondea esquinas */
+    cursor: pointer;
+}
+
+.caja_redondeada {
+    width: 40px;
+    height: 40px;
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: rgb(252, 67, 64);
+    color: white;
+    border-radius: 50%;
+    /* 50% de radius: Círculo perfecto */
+}
+
+.cajitas {
+    width: 150px;
+    height: 40px;
+    outline: solid 1px rgb(168, 7, 7);
+}
+
+.box1 {
+    background-color: rgb(252, 67, 64);
+    padding: 10px;
+    /* Padding aplicado en todos lados */
+}
+
+.box2 {
+    background-color: rgb(252, 67, 64);
+    padding-top: 0px;
+    /* Espacio interno: arriba */
+    padding-right: 5px;
+    /* Espacio interno: derecha */
+    padding-bottom: 0px;
+    /* Espacio interno: abajo */
+    padding-left: 5px;
+    /* Espacio interno: izquierda */
+    /* padding: 0px 5px 0px 5px --> aplicando en todos lados*/
+    /* padding: 0px 5px --> 0px del eje (Y) y 5px del eje (X) */
+}
+
+.box3 {
+    background-color: rgb(252, 67, 64);
+    margin: 10px;
+    /* Margen externo: Separa elementos */
+}
+
+.box4 {
+    background-color: rgb(252, 67, 64);
+    margin: 15px 20px;
+    /* Eje (X) modificado con margin */
+    padding: 10px 0px;
+    /* eje (Y) modificado con padding */
+}
+
+.box5 {
+    float: left;
+    width: 30%;
 }

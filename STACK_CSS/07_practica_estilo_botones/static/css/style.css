@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.buscar {
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: lightgray;
+    margin: 20px 0px;
+}
+
+.redondeado {
+    width: 50px;
+    height: 50px;
+    padding: 17px 10px;
+    cursor: pointer;
+    background-color: peru;
+    color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.cuenta {
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: royalblue;
+    margin: 20px 0px;
+    color: white;
+    border: none;
+    box-shadow: 5px 5px 8px black;
+}
