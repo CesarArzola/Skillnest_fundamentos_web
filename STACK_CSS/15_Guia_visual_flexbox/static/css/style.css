@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Diseño NAV */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    /* Centrar contenido con flex */
+    gap: 20px;
+    /* Separación de elementos con flex */
+    background-color: #334155;
+    padding: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* Negrita */
+}
+
+.main {
+    padding: 30px;
+}
+
+.seccion {
+    background-color: white;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.726);
+}
+
+/* CONTENEDOR DE CAJAS */
+
+.contenedor {
+    display: flex;
+
+    background-color: rgb(235, 235, 235);
+    height: 200px;
+    border: 3px dashed #94a3b8;
+    margin-top: 20px;
+}
+
+/* CAJAS A MANIPULAR */
+
+.cajas {
+    width: 80px;
+    height: 80px;
+    background-color: #334155;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    /* display flex */
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente el contenido */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+}
+
+/* EJEMPLOS */
+/* 1.- justify-content + gap */
+
+.ejemplo1 {
+    justify-content: center;
+    gap: 20px;
+}
+
+/* 2.- align-items + gap */
+
+.ejemplo2 {
+    align-items: center;
+    gap: 20px;
+}
+
+/* 3.- flex-direction column + gap */
+
+.ejemplo3 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* space-between + align-itemns */
+
+.ejemplo4 {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* justify-content:center + align-items:center */
+
+.caja_grande {
+    width: 180px;
+    height: 100px;
+}
+
+.ejemplo5 {
+    justify-content: center;
+    align-items: center;
+}

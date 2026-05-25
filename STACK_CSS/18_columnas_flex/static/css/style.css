@@ -1,0 +1,35 @@
+/* Estilos generales */
+body {
+    padding: 20px;
+    background-color: rgb(231, 231, 231);
+}
+
+/* Contenedor de filas */
+.row {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    color: #383C3E;
+    text-align: center;
+}
+
+/* Estilos generales para columnas */
+.col {
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #87CEEB;
+    padding: 20px;
+    flex: 1;
+    box-shadow: 2px 2px 8px gray;
+}
+
+/* Ajuste de tamaños específicos */
+.col-2 {
+    background-color: #87CEEB;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: #87CEEB;
+    flex: 3;
+}
