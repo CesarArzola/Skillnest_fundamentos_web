@@ -23,6 +23,7 @@ header {
 .titulo {
     font-size: 28px;
     margin-left: 20px;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .p-azul {
@@ -42,6 +43,7 @@ header {
     border: none;
     border-radius: 8px;
     font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
     transition: transform 0.3s ease;
     margin: 0 15px;
@@ -53,11 +55,11 @@ header {
 
 .contenedor {
     display: flex;
-    background-color: #cfe4fc;
+    background-color: #F4F7FE;
 }
 
 .div_principal {
-    padding: 80px;
+    padding: 60px;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -65,25 +67,29 @@ header {
 }
 
 .titulo2 {
+    margin-top: 40px;
     font-size: 50px;
     color: rgba(0, 0, 0, 0.87);
 }
 
 .div_principal p {
     color: rgba(0, 0, 0, 0.87);
-    margin-left: 20px;
 }
 
 .boton2 {
     background-color: #206DEB;
     color: white;
-    padding: 15px 30px;
+    padding: 20px 35px;
     border: none;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
     transition: transform 0.3s ease;
-    margin-left: 20px;
+    font-weight: bold;
+}
+
+.boton2:hover {
+    transform: scale(1.1);
 }
 
 .div a {
@@ -116,4 +122,87 @@ header {
 .titulo3 {
     font-size: 35px;
     color: rgba(0, 0, 0, 0.877);
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont_imagenes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 240px;
+    margin-top: 50px;
+}
+
+.tit_imagen {
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.imagen1 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.imagen2 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.imagen3 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.parrafo {
+    display: flex;
+    font-size: 17px;
+    color: #58616D;
+    text-align: center;
+}
+
+.contenedor3 {
+    padding: 50px;
+    margin: 0 40px 60px 40px;
+    background-color: #F4F7FE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    border-radius: 25px;
+}
+
+.contenedor3 h2 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.contenedor3 p {
+    font-size: 20px;
+    color: #3f464e;
+}
+
+.barra_footer {
+    padding: 40px;
+    background-color: #F4F7FE;
+}
+
+.superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra_footer a {
+    margin: 0 40px;
+}
+
+.derechos {
+    margin: 20px 20px 10px;
+    color: #777F8C;
 }
