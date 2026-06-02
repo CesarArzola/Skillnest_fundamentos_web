@@ -1,0 +1,243 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 35px;
+    margin-left: 135px;
+}
+
+.nav {
+    display: flex;
+    align-items: baseline;
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 160px;
+}
+
+.nav a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.boton {
+    font-size: 13px;
+    font-weight: 550;
+    padding: 10px 15px;
+    color: white;
+    background-color: #3498DB;
+    border: none;
+    border-radius: 6px;
+    transition: transform 0.5s ease;
+}
+
+.boton:hover {
+    transform: scale(1.2);
+}
+
+.cont_principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont_izquierda {
+    width: 00px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    flex: 2.1;
+}
+
+.azul {
+    background-color: #3498DB;
+    padding: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-left: 100px;
+}
+
+.usuario {
+    position: absolute;
+    border-radius: 50%;
+    top: 155px;
+    right: 840px;
+    height: 155px;
+    width: 160px;
+}
+
+.blanco {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 100px;
+    box-shadow: 0 2px 6px 2px rgb(173, 173, 173);
+}
+
+.blanco h1 {
+    margin-top: 60px;
+    font-weight: 550;
+}
+
+.link_izq_sup {
+    margin-top: 10px;
+    font-weight: 100px;
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+}
+
+.parrafo {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link_izq_inf {
+    color: #1c94e4;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.cont_derecha {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1.9;
+}
+
+.superior {
+    width: 400px;
+    box-shadow: 0 4px 8px rgb(145, 145, 145);
+    border-radius: 10px;
+}
+
+
+
+.solicitudes {
+    padding: 15px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 20px;
+}
+
+.solicitudes button {
+    font-size: 13px;
+    font-weight: 550;
+    padding: 5px 10px;
+    color: #1c94e4;
+    background-color: white;
+    border-color: #1c94e4;
+    border-radius: 6px;
+    transition: transform 0.5s ease;
+}
+
+.solicitudes button:hover {
+    transform: scale(1.1);
+}
+
+.usuarios {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+
+.usuarios div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuarios img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opcion1 {
+    display: flex;
+}
+
+.opcion2 {
+    padding: 2px;
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(40, 182, 88);
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.opcion2:hover {
+    transform: scale(1.2);
+}
+
+.opcion3 {
+    padding: 2px;
+    display: flex;
+    cursor: pointer;
+    background-color: rgb(235, 84, 84);
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.opcion3:hover {
+    transform: scale(1.2);
+}
+
+.inferior {
+    width: 400px;
+    box-shadow: 0 4px 8px rgb(145, 145, 145);
+    border-radius: 10px;
+}
+
+.conexiones {
+    padding: 15px;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 20px;
+}
+
+.conexiones button {
+    font-size: 13px;
+    font-weight: 550;
+    padding: 5px 10px;
+    color: #1c94e4;
+    background-color: white;
+    border-color: #1c94e4;
+    border-radius: 6px;
+    margin-left: 84px;
+    transition: transform 0.5s ease;
+}
+
+.conexiones button:hover {
+    transform: scale(1.1);
+}
